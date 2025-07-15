@@ -573,7 +573,7 @@ footer {
     
     .about-card,
     .contact-card {
-        padding: 2rem;
+        padding: 1.5rem;
     }
     
     .timeline::after {
@@ -601,6 +601,23 @@ footer {
     
     .contact-info {
         grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .contact-item {
+        padding: 1rem;
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    
+    .contact-details {
+        text-align: center;
+    }
+    
+    .contact-details a {
+        word-break: break-all;
+        font-size: 0.9rem;
     }
     
     .projects-grid {
